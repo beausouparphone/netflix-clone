@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { Home } from './components/pages/home/Home'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, useNavigate } from 'react-router-dom'
 import { Login } from './components/pages/login/Login'
 import { Player } from './components/pages/player/Player'
 import { onAuthStateChanged } from 'firebase/auth'
@@ -8,12 +8,16 @@ import { auth } from './firebase'
 
 export const App = () => {
 
+  const navigate = useNavigate();
+
   useEffect(() => {
     onAuthStateChanged(auth, async (user) => {
       if (user) {
         console.log('Logged In');
+        navigate('/');
       } else {
         console.log('Logged Out');
+        navigate('/login');
       }
     })
   }, [])
