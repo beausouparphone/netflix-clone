@@ -1,6 +1,6 @@
 .title-cards {
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .title-cards h2 {
@@ -20,5 +20,6 @@
 .card-list img {
     width: 240px;
     border-radius: 4px;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
