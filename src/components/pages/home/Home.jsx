@@ -20,9 +20,15 @@ export const Home = () => {
                     <button className='btn'><img src={play_icon} alt="" />Play</button>
                     <button className='btn dark-btn'><img src={info_icon} alt="" />Info</button>
                 </div>
+                <TitleCard />
             </div>
         </div>
-        <TitleCard />
+        <div className="more-cards">
+          <TitleCard title={'Blockbuster Movies'}/>
+          <TitleCard title={'Only on Beauflix'}/>
+          <TitleCard title={'Upcoming'}/>
+          <TitleCard title={'For You'}/>
+        </div>
     </div>
   )
 }
