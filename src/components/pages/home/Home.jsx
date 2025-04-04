@@ -5,6 +5,7 @@ import banner_image from '../../../assets/banner-1.jpg'
 import banner_title from '../../../assets/arcane-logo.png'
 import play_icon from '../../../assets/play.png'
 import info_icon from '../../../assets/info.png'
+import { TitleCard } from '../../titlecards/TitleCards'
 
 export const Home = () => {
   return (
@@ -21,6 +22,7 @@ export const Home = () => {
                 </div>
             </div>
         </div>
+        <TitleCard />
     </div>
   )
 }
