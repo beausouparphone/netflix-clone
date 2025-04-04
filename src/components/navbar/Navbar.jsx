@@ -5,6 +5,7 @@ import search_icon from '../../assets/search.png'
 import bell_icon from '../../assets/bell.png'
 import login_img from '../../assets/login.png'
 import dropdown from '../../assets/dropdown.png'
+import { logout } from '../../firebase'
 
 const categories = [
     'Home',
@@ -49,7 +50,7 @@ export const Navbar = () => {
                 <img src={login_img} alt="" className='profile'/>
                 <img src={dropdown} alt="" className='dropdown-btn'/>
                 <div className="dropdown">
-                    <p>Sign Out</p>
+                    <p onClick={() => {logout()}}>Sign Out</p>
                 </div>
             </div>
         </div>         
