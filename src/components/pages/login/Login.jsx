@@ -5,7 +5,7 @@ import { login, signup } from '../../../firebase'
 
 export const Login = () => {
 
-  const [signState, setSignState] = useState('Sign In');
+  const [signState, setSignState] = useState('Sign Up');
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
