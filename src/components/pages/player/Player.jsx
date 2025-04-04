@@ -13,7 +13,7 @@ export const Player = () => {
             title='trailer'
             allowFullScreen
         ></iframe>
-        <div className="player info">
+        <div className="player-info">
             <p>Published Date</p>
             <p>Name</p>
             <p>Type</p>
