@@ -28,7 +28,7 @@ export const Login = () => {
               <input value={name} onChange={(e) => {e.target.value}} type="text" placeholder='Name'/> : <></>}
             <input value={email} onChange={(e) => {e.target.value}}type="email" placeholder='Email'/>
             <input value={password} onChange={(e) => {e.target.value}}type="password" placeholder='Password'/>
-            <button>{signState}</button>
+            <button onClick={user_auth} type='submit'>{signState}</button>
             <div className="form-help">
               <div className="remember">
                 <input type="checkbox" />
