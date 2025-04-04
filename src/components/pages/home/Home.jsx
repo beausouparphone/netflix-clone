@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import { Navbar } from '../../navbar/Navbar'
-import banner_image from '../../../assets/banner-1.jpg'
+import banner_image from '../../../assets/banner-2.jpeg'
 import banner_title from '../../../assets/arcane-logo.png'
 import play_icon from '../../../assets/play.png'
 import info_icon from '../../../assets/info.png'
