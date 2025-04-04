@@ -34,7 +34,10 @@ export const Navbar = () => {
             <img src={bell_icon} alt="" className='icons'/>
             <div className="navbar-profile">
                 <img src={login_img} alt="" className='profile'/>
-                <img src={dropdown} alt="" className='dropdown'/>
+                <img src={dropdown} alt="" className='dropdown-btn'/>
+                <div className="dropdown">
+                    <p>Sign Out</p>
+                </div>
             </div>
         </div>         
     </div>
