@@ -25,7 +25,7 @@ export const App = () => {
 
   return (
     <div>
-      <ToastContainer theme='darl' />
+      <ToastContainer theme='dark' />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />
