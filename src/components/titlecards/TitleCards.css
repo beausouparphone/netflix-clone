@@ -23,3 +23,8 @@
     box-shadow: 2px 3px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
+
+.card-list .card p {
+    text-decoration: underline black;
+    color: #fff;
+}
