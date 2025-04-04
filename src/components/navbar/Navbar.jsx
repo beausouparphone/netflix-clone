@@ -36,7 +36,9 @@ export const Navbar = () => {
             <img src={logo} alt="" />
             <ul>
                 {categories.map((categoryName) => (
-                    <li>
+                    <li
+                        key={categoryName} 
+                    >
                         {categoryName}
                     </li>
                 ))}
